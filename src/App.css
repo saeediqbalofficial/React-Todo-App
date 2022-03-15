@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+* {
+  margin: 0;
+}
+
+.render-comps {
+  display: flex;
+  justify-content: space-evenly;
+}

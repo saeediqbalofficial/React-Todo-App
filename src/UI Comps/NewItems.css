@@ -1,0 +1,45 @@
+body {
+  color: #fff;
+}
+
+.newitem {
+  background-color: rgba(54, 54, 54, 0.335);
+  padding-top: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  border: 1px solid rgb(44, 44, 44);
+}
+
+.form {
+  width: 35vw;
+  height: 60vh;
+  border-radius: 10px;
+  padding: 0px 1.5rem;
+  text-align: left;
+}
+
+.form input {
+  padding: 5px 10px;
+  height: 1.5rem;
+  width: 30vw;
+  border: 1px solid rgb(44, 44, 44);
+  background-color: rgba(54, 54, 54, 0.335);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn {
+  background: #0d2a3d;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 05px;
+  width: 120px;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}

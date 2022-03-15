@@ -1,0 +1,81 @@
+.todo-lists {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100vw;
+  margin: auto;
+  padding: 10px 10px;
+  border-radius: 15px;
+  margin-left: 02vw;
+  margin-right: 02vw;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: rgba(54, 54, 54, 0.335);
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(44, 44, 44);
+  width: 50vw;
+}
+
+.title {
+  color: white;
+  text-align: left;
+  margin-bottom: 2px;
+  color: yellow;
+  margin-top: 5px;
+  background: #26272742;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #26272742;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.disc {
+  font-size: 16px;
+  text-align: left;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 0px;
+  gap: 05px;
+}
+
+.btn {
+  background: #0d2a3d;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 05px;
+  width: 70px;
+}
+
+.date {
+  background: #26272742;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 05px;
+}
+
+.btn:hover,
+.date:hover {
+  background-color: yellow;
+  color: black;
+}
